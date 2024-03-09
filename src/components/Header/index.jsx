@@ -1,13 +1,13 @@
+import "./styles.css";
+
 export default function Header() {
   return (
     <header id="menu">
-      <nav>
-        <dl>
-          <dt>Home</dt>
-          <dt>Agendamento</dt>
-          <dt>Contato</dt>
-          <dt>Login</dt>
-        </dl>
+      <nav id="items-menu">
+        <span className="text-right">Home</span>
+        <span className="text-right">Agendamento</span>
+        <span className="text-right">Contato</span>
+        <span className="text-right">Login</span>
       </nav>
     </header>
   )
