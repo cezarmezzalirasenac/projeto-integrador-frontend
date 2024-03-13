@@ -1,0 +1,32 @@
+#form-login {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 20px 30px 20px 30px 40px 40px;
+  row-gap: 5px;
+  justify-items: center;
+}
+
+.input {
+  width: 70%;
+  height: 90%;
+}
+
+.button {
+  width: 60%;
+  height: 90%;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  color: #fefefe;
+  font-weight: 600;
+}
+
+.button-login {
+  background: #0060cd;
+}
+
+.button-forget-password {
+  background: #f74141;
+}
