@@ -3,10 +3,14 @@ import Header from './components/Header'
 import Home from './pages/Home'
 import Agendamento from './pages/Agendamento'
 import Login from './pages/Login'
+import ScrollToAnchor from './components/ScrollToAnchor'
 
 export default function App() {
+
+
   return (
     <Router>
+      <ScrollToAnchor />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
